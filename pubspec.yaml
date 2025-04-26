@@ -1,0 +1,40 @@
+name: tujuh_sembilan_request
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  autoscale_tabbarview: ^1.0.2
+  dio: ^5.8.0+1
+  flutter_form_builder: ^10.0.1
+  flutter_secure_storage: ^9.2.4
+  flutter_svg: ^2.1.0
+  form_builder_validators: ^11.1.2
+  get: ^4.7.2
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: PlusJakarta
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+          weight: 700
